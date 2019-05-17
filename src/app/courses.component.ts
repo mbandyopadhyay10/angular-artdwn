@@ -12,6 +12,6 @@ import { Component, Input } from '@angular/core';
 })
 export class CoursesComponent {
   title = 'My favourite Courses';
-  courses = ['Angular','SpringBoot','Spring'];
+  courses 
 }
 
