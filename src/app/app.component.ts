@@ -16,4 +16,8 @@ export class AppComponent {
     {id:3, name: 'subject3' },
 
   ]
+  onAdd(){
+    this.subjects.push({id:4 ,name:'subject4'})
+  }
+
 }

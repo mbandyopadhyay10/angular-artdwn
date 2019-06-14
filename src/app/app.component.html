@@ -25,6 +25,7 @@
     <div *ngSwitchCase="'list'">List View Content</div>
     <div *ngSwitchDefault>Otherwise</div>
 </div>
+<button (click)="onAdd()">Add</button>
 <div>
   <ul>
 	<li *ngFor="let sub of subjects">{{sub.name}}</li>
