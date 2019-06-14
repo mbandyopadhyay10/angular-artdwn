@@ -19,5 +19,8 @@ export class AppComponent {
   onAdd(){
     this.subjects.push({id:4 ,name:'subject4'})
   }
-
+  remove(sub){
+    let index = this.subjects.indexOf(sub);
+    this.subjects.splice(index);
+  }
 }

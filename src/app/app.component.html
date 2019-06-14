@@ -28,7 +28,10 @@
 <button (click)="onAdd()">Add</button>
 <div>
   <ul>
-	<li *ngFor="let sub of subjects">{{sub.name}}</li>
+	<li *ngFor="let sub of subjects">{{sub.name}}
+    <button (click)="remove(sub)">Remove</button>
+  </li>
+  
 </ul>
 </div>
 
