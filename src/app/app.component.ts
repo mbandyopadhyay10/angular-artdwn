@@ -21,6 +21,6 @@ export class AppComponent {
   }
   remove(sub){
     let index = this.subjects.indexOf(sub);
-    this.subjects.splice(index);
+    this.subjects.splice(index,1);
   }
 }
