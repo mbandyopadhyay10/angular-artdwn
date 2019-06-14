@@ -8,4 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   name = 'Angular App';
+  courses=[1,2];
+  viewMode="map";
 }
