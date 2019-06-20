@@ -6,11 +6,12 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CoursesComponent } from './courses.component';
 import { CoursesService } from './courses.service';
+import { InputFormatDirective } from './input-format.directive';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, CoursesComponent ],
+  declarations: [ AppComponent, HelloComponent, CoursesComponent, InputFormatDirective ],
   bootstrap:    [ AppComponent ],
   providers: [CoursesService]
 })
